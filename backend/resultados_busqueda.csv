@@ -1,0 +1,208 @@
+nombre del archivo,texto,categorias,titulo,tokens,tokens_list,tokens_text,similitud
+20005,"asian cocoa producers expand despite critics
+   asian cocoa producers are expanding
+   output despite depressed world prices and they dismiss
+   suggestions in the london market that their cocoa is inferior
+       leading cocoa producers are trying to protect their market
+   from our product said a spokesman for indonesias directorate
+   general of plantations were happy about our longterm future
+       malaysian growers said they would try to expand sales in
+   asia and the united states if malaysian cocoa was not suitable
+   for european tastes
+       they were responding to comments by london traders that
+   large tonnages of unwanted cocoa beans from malaysia indonesia
+   and papua new guinea png were helping to depress cocoa
+   prices
+       london traders said the asian cocoa was considered
+   unsuitable for western palates because of an acrid odour and a
+   high level of free fatty acids
+       ng siew kee the chairman of malaysias cocoa growers
+   council said malaysia should expand its sales to asia and the
+   united states if it did not produce a type suitable for western
+   europe
+       a spokesman for the png cocoa industry board said the
+   london market was mistaken if it linked png cocoa with
+   highacid malaysian and indonesian beans
+       when the market is declining buyers seize on anything to
+   talk down prices the spokesman said
+       he said that png could sell whatever cocoa it produces
+       png exported 33000 tonnes of cocoa in the 198687 cocoa
+   year ending september 30 of which nearly 50 pct was exported
+   to west germany 16 pct to the us and the rest to the
+   netherlands and britain
+       the indonesia spokesman an agriculture ministry official
+   who wished not to be identified said indonesia had no problem
+   with quality and would continue to expand sales he described
+   criticism of the quality of indonesian beans as trade politics
+   and said jakartas traditional links with dutch buyers meant it
+   did not have any difficulty with exports
+       indonesia and malaysia asias two biggest commodity
+   producers are expanding cocoa output and are both outside the
+   international cocoa organization icco
+       officials have said malaysian production is expected to
+   total 150000 to 155000 tonnes in calendar 1987
+       this is up from 131000 tonnes in 1986 partly because of
+   the end of a threeyear drought in sabah the countrys largest
+   cocoa growing area
+       production of indonesian cocoa beans tripled to 31600
+   tonnes in calendar 1986 from 10284 tonnes in 1980 output is
+   projected to rise to 50000 tonnes in 1988 from 38000 tonnes
+   this year as young trees mature
+       both malaysia and indonesia are low cost producers and
+   traders said they could last out low prices longer than west
+   african countries
+       according to one kuala lumpur trader world prices would
+   have to fall another 1000 ringgit per tonne about 250 stg to
+   make cocoa production in malaysia uneconomic
+       some traders believe the main quality problem is with
+   harvesting and fermentation techniques
+       one trader said malaysian cocoa is virtually
+   indistinguishable from west african output if treated in the
+   same way but this is not possible on the larger malaysian
+   estates",cocoa,ASIAN COCOA PRODUCERS EXPAND DESPITE CRITICS,"['asian', 'cocoa', 'produc', 'expand', 'despit', 'critic', 'asian', 'cocoa', 'produc', 'expand', 'output', 'despit', 'depress', 'world', 'price', 'dismiss', 'suggest', 'london', 'market', 'cocoa', 'inferior', 'lead', 'cocoa', 'produc', 'tri', 'protect', 'market', 'product', 'said', 'spokesman', 'indonesia', 'director', 'gener', 'plantat', 'happi', 'longterm', 'futur', 'malaysian', 'grower', 'said', 'would', 'tri', 'expand', 'sale', 'asia', 'unit', 'state', 'malaysian', 'cocoa', 'suitabl', 'european', 'tast', 'respond', 'comment', 'london', 'trader', 'larg', 'tonnag', 'unwant', 'cocoa', 'bean', 'malaysia', 'indonesia', 'papua', 'new', 'guinea', 'png', 'help', 'depress', 'cocoa', 'price', 'london', 'trader', 'said', 'asian', 'cocoa', 'consid', 'unsuit', 'western', 'palat', 'acrid', 'odour', 'high', 'level', 'free', 'fatti', 'acid', 'ng', 'siew', 'kee', 'chairman', 'malaysia', 'cocoa', 'grower', 'council', 'said', 'malaysia', 'expand', 'sale', 'asia', 'unit', 'state', 'produc', 'type', 'suitabl', 'western', 'europ', 'spokesman', 'png', 'cocoa', 'industri', 'board', 'said', 'london', 'market', 'mistaken', 'link', 'png', 'cocoa', 'highacid', 'malaysian', 'indonesian', 'bean', 'market', 'declin', 'buyer', 'seiz', 'anyth', 'talk', 'price', 'spokesman', 'said', 'said', 'png', 'could', 'sell', 'whatev', 'cocoa', 'produc', 'png', 'export', '33000', 'tonn', 'cocoa', '198687', 'cocoa', 'year', 'end', 'septemb', '30', 'nearli', '50', 'pct', 'export', 'west', 'germani', '16', 'pct', 'us', 'rest', 'netherland', 'britain', 'indonesia', 'spokesman', 'agricultur', 'ministri', 'offici', 'wish', 'identifi', 'said', 'indonesia', 'problem', 'qualiti', 'would', 'continu', 'expand', 'sale', 'describ', 'critic', 'qualiti', 'indonesian', 'bean', 'trade', 'polit', 'said', 'jakarta', 'tradit', 'link', 'dutch', 'buyer', 'meant', 'difficulti', 'export', 'indonesia', 'malaysia', 'asia', 'two', 'biggest', 'commod', 'produc', 'expand', 'cocoa', 'output', 'outsid', 'intern', 'cocoa', 'organ', 'icco', 'offici', 'said', 'malaysian', 'product', 'expect', 'total', '150000', '155000', 'tonn', 'calendar', '1987', '131000', 'tonn', '1986', 'partli', 'end', 'threeyear', 'drought', 'sabah', 'countri', 'largest', 'cocoa', 'grow', 'area', 'product', 'indonesian', 'cocoa', 'bean', 'tripl', '31600', 'tonn', 'calendar', '1986', '10284', 'tonn', '1980', 'output', 'project', 'rise', '50000', 'tonn', '1988', '38000', 'tonn', 'year', 'young', 'tree', 'matur', 'malaysia', 'indonesia', 'low', 'cost', 'produc', 'trader', 'said', 'could', 'last', 'low', 'price', 'longer', 'west', 'african', 'countri', 'accord', 'one', 'kuala', 'lumpur', 'trader', 'world', 'price', 'would', 'fall', 'anoth', '1000', 'ringgit', 'per', 'tonn', '250', 'stg', 'make', 'cocoa', 'product', 'malaysia', 'uneconom', 'trader', 'believ', 'main', 'qualiti', 'problem', 'harvest', 'ferment', 'techniqu', 'one', 'trader', 'said', 'malaysian', 'cocoa', 'virtual', 'indistinguish', 'west', 'african', 'output', 'treat', 'way', 'possibl', 'larger', 'malaysian', 'estat']","['asian', 'cocoa', 'produc', 'expand', 'despit', 'critic', 'asian', 'cocoa', 'produc', 'expand', 'output', 'despit', 'depress', 'world', 'price', 'dismiss', 'suggest', 'london', 'market', 'cocoa', 'inferior', 'lead', 'cocoa', 'produc', 'tri', 'protect', 'market', 'product', 'said', 'spokesman', 'indonesia', 'director', 'gener', 'plantat', 'happi', 'longterm', 'futur', 'malaysian', 'grower', 'said', 'would', 'tri', 'expand', 'sale', 'asia', 'unit', 'state', 'malaysian', 'cocoa', 'suitabl', 'european', 'tast', 'respond', 'comment', 'london', 'trader', 'larg', 'tonnag', 'unwant', 'cocoa', 'bean', 'malaysia', 'indonesia', 'papua', 'new', 'guinea', 'png', 'help', 'depress', 'cocoa', 'price', 'london', 'trader', 'said', 'asian', 'cocoa', 'consid', 'unsuit', 'western', 'palat', 'acrid', 'odour', 'high', 'level', 'free', 'fatti', 'acid', 'ng', 'siew', 'kee', 'chairman', 'malaysia', 'cocoa', 'grower', 'council', 'said', 'malaysia', 'expand', 'sale', 'asia', 'unit', 'state', 'produc', 'type', 'suitabl', 'western', 'europ', 'spokesman', 'png', 'cocoa', 'industri', 'board', 'said', 'london', 'market', 'mistaken', 'link', 'png', 'cocoa', 'highacid', 'malaysian', 'indonesian', 'bean', 'market', 'declin', 'buyer', 'seiz', 'anyth', 'talk', 'price', 'spokesman', 'said', 'said', 'png', 'could', 'sell', 'whatev', 'cocoa', 'produc', 'png', 'export', '33000', 'tonn', 'cocoa', '198687', 'cocoa', 'year', 'end', 'septemb', '30', 'nearli', '50', 'pct', 'export', 'west', 'germani', '16', 'pct', 'us', 'rest', 'netherland', 'britain', 'indonesia', 'spokesman', 'agricultur', 'ministri', 'offici', 'wish', 'identifi', 'said', 'indonesia', 'problem', 'qualiti', 'would', 'continu', 'expand', 'sale', 'describ', 'critic', 'qualiti', 'indonesian', 'bean', 'trade', 'polit', 'said', 'jakarta', 'tradit', 'link', 'dutch', 'buyer', 'meant', 'difficulti', 'export', 'indonesia', 'malaysia', 'asia', 'two', 'biggest', 'commod', 'produc', 'expand', 'cocoa', 'output', 'outsid', 'intern', 'cocoa', 'organ', 'icco', 'offici', 'said', 'malaysian', 'product', 'expect', 'total', '150000', '155000', 'tonn', 'calendar', '1987', '131000', 'tonn', '1986', 'partli', 'end', 'threeyear', 'drought', 'sabah', 'countri', 'largest', 'cocoa', 'grow', 'area', 'product', 'indonesian', 'cocoa', 'bean', 'tripl', '31600', 'tonn', 'calendar', '1986', '10284', 'tonn', '1980', 'output', 'project', 'rise', '50000', 'tonn', '1988', '38000', 'tonn', 'year', 'young', 'tree', 'matur', 'malaysia', 'indonesia', 'low', 'cost', 'produc', 'trader', 'said', 'could', 'last', 'low', 'price', 'longer', 'west', 'african', 'countri', 'accord', 'one', 'kuala', 'lumpur', 'trader', 'world', 'price', 'would', 'fall', 'anoth', '1000', 'ringgit', 'per', 'tonn', '250', 'stg', 'make', 'cocoa', 'product', 'malaysia', 'uneconom', 'trader', 'believ', 'main', 'qualiti', 'problem', 'harvest', 'ferment', 'techniqu', 'one', 'trader', 'said', 'malaysian', 'cocoa', 'virtual', 'indistinguish', 'west', 'african', 'output', 'treat', 'way', 'possibl', 'larger', 'malaysian', 'estat']",asian cocoa produc expand despit critic asian cocoa produc expand output despit depress world price dismiss suggest london market cocoa inferior lead cocoa produc tri protect market product said spokesman indonesia director gener plantat happi longterm futur malaysian grower said would tri expand sale asia unit state malaysian cocoa suitabl european tast respond comment london trader larg tonnag unwant cocoa bean malaysia indonesia papua new guinea png help depress cocoa price london trader said asian cocoa consid unsuit western palat acrid odour high level free fatti acid ng siew kee chairman malaysia cocoa grower council said malaysia expand sale asia unit state produc type suitabl western europ spokesman png cocoa industri board said london market mistaken link png cocoa highacid malaysian indonesian bean market declin buyer seiz anyth talk price spokesman said said png could sell whatev cocoa produc png export 33000 tonn cocoa 198687 cocoa year end septemb 30 nearli 50 pct export west germani 16 pct us rest netherland britain indonesia spokesman agricultur ministri offici wish identifi said indonesia problem qualiti would continu expand sale describ critic qualiti indonesian bean trade polit said jakarta tradit link dutch buyer meant difficulti export indonesia malaysia asia two biggest commod produc expand cocoa output outsid intern cocoa organ icco offici said malaysian product expect total 150000 155000 tonn calendar 1987 131000 tonn 1986 partli end threeyear drought sabah countri largest cocoa grow area product indonesian cocoa bean tripl 31600 tonn calendar 1986 10284 tonn 1980 output project rise 50000 tonn 1988 38000 tonn year young tree matur malaysia indonesia low cost produc trader said could last low price longer west african countri accord one kuala lumpur trader world price would fall anoth 1000 ringgit per tonn 250 stg make cocoa product malaysia uneconom trader believ main qualiti problem harvest ferment techniqu one trader said malaysian cocoa virtual indistinguish west african output treat way possibl larger malaysian estat,0.5104360851229058
+10505,"icco council agrees cocoa buffer stock rules
+   the international cocoa organization
+   icco council reached agreement on rules to govern its buffer
+   stock the device it uses to keep cocoa off the market to
+   stabilise prices icco delegates said
+       the date on which the new rules will take effect has not
+   been decided but delegates said they expected them to come into
+   force early next week after which the buffer stock manager can
+   begin buying or selling cocoa
+       since prices are below the maybuy level of 1655 special
+   drawing rights a tonne set in the cocoa pact the manager is
+   likely to buy cocoa sooon to support the market they said
+       delegates and traders said they expected the manager
+   juergen plambeck to intervene in the market within three weeks
+   of the pact coming into force
+       the rules permit him to buy and sell cocoa from origins or
+   the second hand market on an offer system not by means of a
+   posted price as in the previous cocoa accord
+       the cocoa will be priced according to a fixed set of
+   differentials ranging from 137 stg for most expensive ghana
+   cocoa to zero for malaysian cocoa
+       purchases from nonmembers such as malaysia will be
+   limited to 15 pct of the total stock and those on any one day
+   should be limited to 40 pct each in nearby intermediate and
+   forward positions
+       the council meeting which is expected to conclude two
+   weeks of sessions involving various working groups and the
+   council itself was continuing the delegates said
+       the current cocoa agreement came into force on january 20
+   during a previous meeting of the council which was unable to
+   agree on the rules to implement buffer stock operations",cocoa,ICCO COUNCIL AGREES COCOA BUFFER STOCK RULES,"['icco', 'council', 'agre', 'cocoa', 'buffer', 'stock', 'rule', 'intern', 'cocoa', 'organ', 'icco', 'council', 'reach', 'agreement', 'rule', 'govern', 'buffer', 'stock', 'devic', 'use', 'keep', 'cocoa', 'market', 'stabilis', 'price', 'icco', 'deleg', 'said', 'date', 'new', 'rule', 'take', 'effect', 'decid', 'deleg', 'said', 'expect', 'come', 'forc', 'earli', 'next', 'week', 'buffer', 'stock', 'manag', 'begin', 'buy', 'sell', 'cocoa', 'sinc', 'price', 'maybuy', 'level', '1655', 'special', 'draw', 'right', 'tonn', 'set', 'cocoa', 'pact', 'manag', 'like', 'buy', 'cocoa', 'sooon', 'support', 'market', 'said', 'deleg', 'trader', 'said', 'expect', 'manag', 'juergen', 'plambeck', 'interven', 'market', 'within', 'three', 'week', 'pact', 'come', 'forc', 'rule', 'permit', 'buy', 'sell', 'cocoa', 'origin', 'second', 'hand', 'market', 'offer', 'system', 'mean', 'post', 'price', 'previou', 'cocoa', 'accord', 'cocoa', 'price', 'accord', 'fix', 'set', 'differenti', 'rang', '137', 'stg', 'expens', 'ghana', 'cocoa', 'zero', 'malaysian', 'cocoa', 'purchas', 'nonmemb', 'malaysia', 'limit', '15', 'pct', 'total', 'stock', 'one', 'day', 'limit', '40', 'pct', 'nearbi', 'intermedi', 'forward', 'posit', 'council', 'meet', 'expect', 'conclud', 'two', 'week', 'session', 'involv', 'variou', 'work', 'group', 'council', 'continu', 'deleg', 'said', 'current', 'cocoa', 'agreement', 'came', 'forc', 'januari', '20', 'previou', 'meet', 'council', 'unabl', 'agre', 'rule', 'implement', 'buffer', 'stock', 'oper']","['icco', 'council', 'agre', 'cocoa', 'buffer', 'stock', 'rule', 'intern', 'cocoa', 'organ', 'icco', 'council', 'reach', 'agreement', 'rule', 'govern', 'buffer', 'stock', 'devic', 'use', 'keep', 'cocoa', 'market', 'stabilis', 'price', 'icco', 'deleg', 'said', 'date', 'new', 'rule', 'take', 'effect', 'decid', 'deleg', 'said', 'expect', 'come', 'forc', 'earli', 'next', 'week', 'buffer', 'stock', 'manag', 'begin', 'buy', 'sell', 'cocoa', 'sinc', 'price', 'maybuy', 'level', '1655', 'special', 'draw', 'right', 'tonn', 'set', 'cocoa', 'pact', 'manag', 'like', 'buy', 'cocoa', 'sooon', 'support', 'market', 'said', 'deleg', 'trader', 'said', 'expect', 'manag', 'juergen', 'plambeck', 'interven', 'market', 'within', 'three', 'week', 'pact', 'come', 'forc', 'rule', 'permit', 'buy', 'sell', 'cocoa', 'origin', 'second', 'hand', 'market', 'offer', 'system', 'mean', 'post', 'price', 'previou', 'cocoa', 'accord', 'cocoa', 'price', 'accord', 'fix', 'set', 'differenti', 'rang', '137', 'stg', 'expens', 'ghana', 'cocoa', 'zero', 'malaysian', 'cocoa', 'purchas', 'nonmemb', 'malaysia', 'limit', '15', 'pct', 'total', 'stock', 'one', 'day', 'limit', '40', 'pct', 'nearbi', 'intermedi', 'forward', 'posit', 'council', 'meet', 'expect', 'conclud', 'two', 'week', 'session', 'involv', 'variou', 'work', 'group', 'council', 'continu', 'deleg', 'said', 'current', 'cocoa', 'agreement', 'came', 'forc', 'januari', '20', 'previou', 'meet', 'council', 'unabl', 'agre', 'rule', 'implement', 'buffer', 'stock', 'oper']",icco council agre cocoa buffer stock rule intern cocoa organ icco council reach agreement rule govern buffer stock devic use keep cocoa market stabilis price icco deleg said date new rule take effect decid deleg said expect come forc earli next week buffer stock manag begin buy sell cocoa sinc price maybuy level 1655 special draw right tonn set cocoa pact manag like buy cocoa sooon support market said deleg trader said expect manag juergen plambeck interven market within three week pact come forc rule permit buy sell cocoa origin second hand market offer system mean post price previou cocoa accord cocoa price accord fix set differenti rang 137 stg expens ghana cocoa zero malaysian cocoa purchas nonmemb malaysia limit 15 pct total stock one day limit 40 pct nearbi intermedi forward posit council meet expect conclud two week session involv variou work group council continu deleg said current cocoa agreement came forc januari 20 previou meet council unabl agre rule implement buffer stock oper,0.45166302833718847
+5258,"cocoa latest focus for commodity pact negotiators
+   the credibility of government efforts to
+   stabilise fluctuating commodity prices will again be put to the
+   test over the next two weeks as countries try to agree on how a
+   buffer stock should operate in the cocoa market government
+   delegates and trade experts said
+       only two weeks ago world coffee prices slumped when
+   international coffee organization members failed to agree on
+   how coffee export quotas should be calculated this week many
+   of the same experts gather in the same building here to try to
+   agree on how the cocoa pact reached last summer should work
+       the still unresolved legal wrangle surrounding the
+   international tin council itc which had buffer stock losses
+   running into hundreds of millions of sterling is also casting
+   a shadow over commodity negotiations
+       the itcs failure has restricted negotiators ability to
+   compromise as governments do not want to be involved in pacts
+   with builtin flaws or unlimited liability but want clear
+   lines drawn between aid and trade
+       a more hopeful sign of cooperation was agreement on basic
+   elements of a new international natural rubber agreement in
+   geneva at the weekend
+       some importing countries insist the international cocoa
+   organization icco buffer stock rules must not be muddied with
+   quota type subclauses which might dictate the type of cocoa to
+   be bought one consumer country delegate said this would
+   distort not support the market
+       trade and industry sources blame uncertainty about the icco
+   for destabilising the market as the recent collapse in coffee
+   prices has made traders acutely aware that commodity pacts can
+   founder on friday this uncertainty helped push london cocoa
+   futures down to eight month lows the strength of sterling has
+   also contributed to the recent slip in prices
+       the icco daily and average prices on friday fell below the
+   must buy level of 1600 sdrs a tonne designated in the pact
+   which came into force at the last icco session in january but
+   without rules for the operation of the buffer stock
+       consumers and producers could not agree on how it should
+   operate and what discretion it should be given the agreement
+   limits it to trading physical cocoa and expressly says it
+   cannot operate on futures markets
+       a cash balance of some 250 mln dlrs and a stock of almost
+   100000 tonnes of cocoa enough to mount large buying or
+   selling operations were carried forward from the previous
+   agreement
+       members finance the stock through a 45 dlrs a tonne levy on
+   all cocoa they trade it has an upper limit of 250000 tonnes
+       the key arguments being faced by the icco working group on
+   buffer stock rules which is meeting today and tomorrow will be
+   over nonmember cocoa and differentials the buffer stock should
+   pay when trading different types of cocoa another working
+   group is scheduled to meet wednesday to discuss administrative
+   matters and the full council meets on thursday
+       producers have so far maintained that buffer stock funds
+   should not help mop up surplus cocoa produced in nonmember
+   countries such as malaysia
+       consumers say when this cocoa is the cheapest the buffer
+   stock should buy it rather than compete with chocolate
+   manufacturers for premiumpriced high quality cocoas
+       the argument over buying nonmember cocoa is closely linked
+   to the one over differentials for different qualities
+       european industry and trade advisers have suggested as a
+   compromise that the buffer stock have a maximum share that can
+   represent nonmember cocoa and that it use the london futures
+   markets existing differentials for different qualities
+       currently good west african cocoa is tendered at par onto
+   the london market
+       discounts which are currently under review range up to 50
+   stg a tonne for brazilian and malaysian cocoa
+       consumer delegates said the same arguments in reverse would
+   operate when prices are high  the buffer stock should sell the
+   highest priced cocoa in most demand forcing all prices lower
+       the january talks were slowed by a split inside the
+   european community a key icco consumer group with france
+   siding with producers ec representatives met in closed session
+   in brussels on friday in an attempt to reach a common ground
+   and a diplomatic source said narrowed the range of positions
+   among the 12 nations
+       the source said the ec will be looking for signs of
+   flexibility on the part of producers in the next few days and
+   will be able to respond if they are there
+       one icco delegate describing the producerconsumer split
+   said consumer proposals mean buying more cocoa for less and
+   backs the concept of the pact which is meant to support the
+   market where trade buying is not
+       in contrast he said producers seem to want to sell their
+   cocoa to the buffer stock rather than consumers
+       other more technical issues still outstanding include
+   whether the buffer stock should buy at a single announced
+   posted price as in the previous pact or by announcing it is
+   buying then accepting offers
+       in either case delegates said it is accepted that
+   producers must be given a clear opportunity to make offers of
+   cocoa for forward shipment directly to the buffer stock in a
+   way that is competitive with spot offers made by dealers",cocoa,COCOA LATEST FOCUS FOR COMMODITY PACT NEGOTIATORS,"['cocoa', 'latest', 'focu', 'commod', 'pact', 'negoti', 'credibl', 'govern', 'effort', 'stabilis', 'fluctuat', 'commod', 'price', 'put', 'test', 'next', 'two', 'week', 'countri', 'tri', 'agre', 'buffer', 'stock', 'oper', 'cocoa', 'market', 'govern', 'deleg', 'trade', 'expert', 'said', 'two', 'week', 'ago', 'world', 'coffe', 'price', 'slump', 'intern', 'coffe', 'organ', 'member', 'fail', 'agre', 'coffe', 'export', 'quota', 'calcul', 'week', 'mani', 'expert', 'gather', 'build', 'tri', 'agre', 'cocoa', 'pact', 'reach', 'last', 'summer', 'work', 'still', 'unresolv', 'legal', 'wrangl', 'surround', 'intern', 'tin', 'council', 'itc', 'buffer', 'stock', 'loss', 'run', 'hundr', 'million', 'sterl', 'also', 'cast', 'shadow', 'commod', 'negoti', 'itc', 'failur', 'restrict', 'negoti', 'abil', 'compromis', 'govern', 'want', 'involv', 'pact', 'builtin', 'flaw', 'unlimit', 'liabil', 'want', 'clear', 'line', 'drawn', 'aid', 'trade', 'hope', 'sign', 'cooper', 'agreement', 'basic', 'element', 'new', 'intern', 'natur', 'rubber', 'agreement', 'geneva', 'weekend', 'import', 'countri', 'insist', 'intern', 'cocoa', 'organ', 'icco', 'buffer', 'stock', 'rule', 'must', 'muddi', 'quota', 'type', 'subclaus', 'might', 'dictat', 'type', 'cocoa', 'bought', 'one', 'consum', 'countri', 'deleg', 'said', 'would', 'distort', 'support', 'market', 'trade', 'industri', 'sourc', 'blame', 'uncertainti', 'icco', 'destabilis', 'market', 'recent', 'collaps', 'coffe', 'price', 'made', 'trader', 'acut', 'awar', 'commod', 'pact', 'founder', 'friday', 'uncertainti', 'help', 'push', 'london', 'cocoa', 'futur', 'eight', 'month', 'low', 'strength', 'sterl', 'also', 'contribut', 'recent', 'slip', 'price', 'icco', 'daili', 'averag', 'price', 'friday', 'fell', 'must', 'buy', 'level', '1600', 'sdr', 'tonn', 'design', 'pact', 'came', 'forc', 'last', 'icco', 'session', 'januari', 'without', 'rule', 'oper', 'buffer', 'stock', 'consum', 'produc', 'could', 'agre', 'oper', 'discret', 'given', 'agreement', 'limit', 'trade', 'physic', 'cocoa', 'expressli', 'say', 'cannot', 'oper', 'futur', 'market', 'cash', 'balanc', '250', 'mln', 'dlr', 'stock', 'almost', '100000', 'tonn', 'cocoa', 'enough', 'mount', 'larg', 'buy', 'sell', 'oper', 'carri', 'forward', 'previou', 'agreement', 'member', 'financ', 'stock', '45', 'dlr', 'tonn', 'levi', 'cocoa', 'trade', 'upper', 'limit', '250000', 'tonn', 'key', 'argument', 'face', 'icco', 'work', 'group', 'buffer', 'stock', 'rule', 'meet', 'today', 'tomorrow', 'nonmemb', 'cocoa', 'differenti', 'buffer', 'stock', 'pay', 'trade', 'differ', 'type', 'cocoa', 'anoth', 'work', 'group', 'schedul', 'meet', 'wednesday', 'discuss', 'administr', 'matter', 'full', 'council', 'meet', 'thursday', 'produc', 'far', 'maintain', 'buffer', 'stock', 'fund', 'help', 'mop', 'surplu', 'cocoa', 'produc', 'nonmemb', 'countri', 'malaysia', 'consum', 'say', 'cocoa', 'cheapest', 'buffer', 'stock', 'buy', 'rather', 'compet', 'chocol', 'manufactur', 'premiumpr', 'high', 'qualiti', 'cocoa', 'argument', 'buy', 'nonmemb', 'cocoa', 'close', 'link', 'one', 'differenti', 'differ', 'qualiti', 'european', 'industri', 'trade', 'advis', 'suggest', 'compromis', 'buffer', 'stock', 'maximum', 'share', 'repres', 'nonmemb', 'cocoa', 'use', 'london', 'futur', 'market', 'exist', 'differenti', 'differ', 'qualiti', 'current', 'good', 'west', 'african', 'cocoa', 'tender', 'par', 'onto', 'london', 'market', 'discount', 'current', 'review', 'rang', '50', 'stg', 'tonn', 'brazilian', 'malaysian', 'cocoa', 'consum', 'deleg', 'said', 'argument', 'revers', 'would', 'oper', 'price', 'high', 'buffer', 'stock', 'sell', 'highest', 'price', 'cocoa', 'demand', 'forc', 'price', 'lower', 'januari', 'talk', 'slow', 'split', 'insid', 'european', 'commun', 'key', 'icco', 'consum', 'group', 'franc', 'side', 'produc', 'ec', 'repres', 'met', 'close', 'session', 'brussel', 'friday', 'attempt', 'reach', 'common', 'ground', 'diplomat', 'sourc', 'said', 'narrow', 'rang', 'posit', 'among', '12', 'nation', 'sourc', 'said', 'ec', 'look', 'sign', 'flexibl', 'part', 'produc', 'next', 'day', 'abl', 'respond', 'one', 'icco', 'deleg', 'describ', 'producerconsum', 'split', 'said', 'consum', 'propos', 'mean', 'buy', 'cocoa', 'less', 'back', 'concept', 'pact', 'meant', 'support', 'market', 'trade', 'buy', 'contrast', 'said', 'produc', 'seem', 'want', 'sell', 'cocoa', 'buffer', 'stock', 'rather', 'consum', 'technic', 'issu', 'still', 'outstand', 'includ', 'whether', 'buffer', 'stock', 'buy', 'singl', 'announc', 'post', 'price', 'previou', 'pact', 'announc', 'buy', 'accept', 'offer', 'either', 'case', 'deleg', 'said', 'accept', 'produc', 'must', 'given', 'clear', 'opportun', 'make', 'offer', 'cocoa', 'forward', 'shipment', 'directli', 'buffer', 'stock', 'way', 'competit', 'spot', 'offer', 'made', 'dealer']","['cocoa', 'latest', 'focu', 'commod', 'pact', 'negoti', 'credibl', 'govern', 'effort', 'stabilis', 'fluctuat', 'commod', 'price', 'put', 'test', 'next', 'two', 'week', 'countri', 'tri', 'agre', 'buffer', 'stock', 'oper', 'cocoa', 'market', 'govern', 'deleg', 'trade', 'expert', 'said', 'two', 'week', 'ago', 'world', 'coffe', 'price', 'slump', 'intern', 'coffe', 'organ', 'member', 'fail', 'agre', 'coffe', 'export', 'quota', 'calcul', 'week', 'mani', 'expert', 'gather', 'build', 'tri', 'agre', 'cocoa', 'pact', 'reach', 'last', 'summer', 'work', 'still', 'unresolv', 'legal', 'wrangl', 'surround', 'intern', 'tin', 'council', 'itc', 'buffer', 'stock', 'loss', 'run', 'hundr', 'million', 'sterl', 'also', 'cast', 'shadow', 'commod', 'negoti', 'itc', 'failur', 'restrict', 'negoti', 'abil', 'compromis', 'govern', 'want', 'involv', 'pact', 'builtin', 'flaw', 'unlimit', 'liabil', 'want', 'clear', 'line', 'drawn', 'aid', 'trade', 'hope', 'sign', 'cooper', 'agreement', 'basic', 'element', 'new', 'intern', 'natur', 'rubber', 'agreement', 'geneva', 'weekend', 'import', 'countri', 'insist', 'intern', 'cocoa', 'organ', 'icco', 'buffer', 'stock', 'rule', 'must', 'muddi', 'quota', 'type', 'subclaus', 'might', 'dictat', 'type', 'cocoa', 'bought', 'one', 'consum', 'countri', 'deleg', 'said', 'would', 'distort', 'support', 'market', 'trade', 'industri', 'sourc', 'blame', 'uncertainti', 'icco', 'destabilis', 'market', 'recent', 'collaps', 'coffe', 'price', 'made', 'trader', 'acut', 'awar', 'commod', 'pact', 'founder', 'friday', 'uncertainti', 'help', 'push', 'london', 'cocoa', 'futur', 'eight', 'month', 'low', 'strength', 'sterl', 'also', 'contribut', 'recent', 'slip', 'price', 'icco', 'daili', 'averag', 'price', 'friday', 'fell', 'must', 'buy', 'level', '1600', 'sdr', 'tonn', 'design', 'pact', 'came', 'forc', 'last', 'icco', 'session', 'januari', 'without', 'rule', 'oper', 'buffer', 'stock', 'consum', 'produc', 'could', 'agre', 'oper', 'discret', 'given', 'agreement', 'limit', 'trade', 'physic', 'cocoa', 'expressli', 'say', 'cannot', 'oper', 'futur', 'market', 'cash', 'balanc', '250', 'mln', 'dlr', 'stock', 'almost', '100000', 'tonn', 'cocoa', 'enough', 'mount', 'larg', 'buy', 'sell', 'oper', 'carri', 'forward', 'previou', 'agreement', 'member', 'financ', 'stock', '45', 'dlr', 'tonn', 'levi', 'cocoa', 'trade', 'upper', 'limit', '250000', 'tonn', 'key', 'argument', 'face', 'icco', 'work', 'group', 'buffer', 'stock', 'rule', 'meet', 'today', 'tomorrow', 'nonmemb', 'cocoa', 'differenti', 'buffer', 'stock', 'pay', 'trade', 'differ', 'type', 'cocoa', 'anoth', 'work', 'group', 'schedul', 'meet', 'wednesday', 'discuss', 'administr', 'matter', 'full', 'council', 'meet', 'thursday', 'produc', 'far', 'maintain', 'buffer', 'stock', 'fund', 'help', 'mop', 'surplu', 'cocoa', 'produc', 'nonmemb', 'countri', 'malaysia', 'consum', 'say', 'cocoa', 'cheapest', 'buffer', 'stock', 'buy', 'rather', 'compet', 'chocol', 'manufactur', 'premiumpr', 'high', 'qualiti', 'cocoa', 'argument', 'buy', 'nonmemb', 'cocoa', 'close', 'link', 'one', 'differenti', 'differ', 'qualiti', 'european', 'industri', 'trade', 'advis', 'suggest', 'compromis', 'buffer', 'stock', 'maximum', 'share', 'repres', 'nonmemb', 'cocoa', 'use', 'london', 'futur', 'market', 'exist', 'differenti', 'differ', 'qualiti', 'current', 'good', 'west', 'african', 'cocoa', 'tender', 'par', 'onto', 'london', 'market', 'discount', 'current', 'review', 'rang', '50', 'stg', 'tonn', 'brazilian', 'malaysian', 'cocoa', 'consum', 'deleg', 'said', 'argument', 'revers', 'would', 'oper', 'price', 'high', 'buffer', 'stock', 'sell', 'highest', 'price', 'cocoa', 'demand', 'forc', 'price', 'lower', 'januari', 'talk', 'slow', 'split', 'insid', 'european', 'commun', 'key', 'icco', 'consum', 'group', 'franc', 'side', 'produc', 'ec', 'repres', 'met', 'close', 'session', 'brussel', 'friday', 'attempt', 'reach', 'common', 'ground', 'diplomat', 'sourc', 'said', 'narrow', 'rang', 'posit', 'among', '12', 'nation', 'sourc', 'said', 'ec', 'look', 'sign', 'flexibl', 'part', 'produc', 'next', 'day', 'abl', 'respond', 'one', 'icco', 'deleg', 'describ', 'producerconsum', 'split', 'said', 'consum', 'propos', 'mean', 'buy', 'cocoa', 'less', 'back', 'concept', 'pact', 'meant', 'support', 'market', 'trade', 'buy', 'contrast', 'said', 'produc', 'seem', 'want', 'sell', 'cocoa', 'buffer', 'stock', 'rather', 'consum', 'technic', 'issu', 'still', 'outstand', 'includ', 'whether', 'buffer', 'stock', 'buy', 'singl', 'announc', 'post', 'price', 'previou', 'pact', 'announc', 'buy', 'accept', 'offer', 'either', 'case', 'deleg', 'said', 'accept', 'produc', 'must', 'given', 'clear', 'opportun', 'make', 'offer', 'cocoa', 'forward', 'shipment', 'directli', 'buffer', 'stock', 'way', 'competit', 'spot', 'offer', 'made', 'dealer']",cocoa latest focu commod pact negoti credibl govern effort stabilis fluctuat commod price put test next two week countri tri agre buffer stock oper cocoa market govern deleg trade expert said two week ago world coffe price slump intern coffe organ member fail agre coffe export quota calcul week mani expert gather build tri agre cocoa pact reach last summer work still unresolv legal wrangl surround intern tin council itc buffer stock loss run hundr million sterl also cast shadow commod negoti itc failur restrict negoti abil compromis govern want involv pact builtin flaw unlimit liabil want clear line drawn aid trade hope sign cooper agreement basic element new intern natur rubber agreement geneva weekend import countri insist intern cocoa organ icco buffer stock rule must muddi quota type subclaus might dictat type cocoa bought one consum countri deleg said would distort support market trade industri sourc blame uncertainti icco destabilis market recent collaps coffe price made trader acut awar commod pact founder friday uncertainti help push london cocoa futur eight month low strength sterl also contribut recent slip price icco daili averag price friday fell must buy level 1600 sdr tonn design pact came forc last icco session januari without rule oper buffer stock consum produc could agre oper discret given agreement limit trade physic cocoa expressli say cannot oper futur market cash balanc 250 mln dlr stock almost 100000 tonn cocoa enough mount larg buy sell oper carri forward previou agreement member financ stock 45 dlr tonn levi cocoa trade upper limit 250000 tonn key argument face icco work group buffer stock rule meet today tomorrow nonmemb cocoa differenti buffer stock pay trade differ type cocoa anoth work group schedul meet wednesday discuss administr matter full council meet thursday produc far maintain buffer stock fund help mop surplu cocoa produc nonmemb countri malaysia consum say cocoa cheapest buffer stock buy rather compet chocol manufactur premiumpr high qualiti cocoa argument buy nonmemb cocoa close link one differenti differ qualiti european industri trade advis suggest compromis buffer stock maximum share repres nonmemb cocoa use london futur market exist differenti differ qualiti current good west african cocoa tender par onto london market discount current review rang 50 stg tonn brazilian malaysian cocoa consum deleg said argument revers would oper price high buffer stock sell highest price cocoa demand forc price lower januari talk slow split insid european commun key icco consum group franc side produc ec repres met close session brussel friday attempt reach common ground diplomat sourc said narrow rang posit among 12 nation sourc said ec look sign flexibl part produc next day abl respond one icco deleg describ producerconsum split said consum propos mean buy cocoa less back concept pact meant support market trade buy contrast said produc seem want sell cocoa buffer stock rather consum technic issu still outstand includ whether buffer stock buy singl announc post price previou pact announc buy accept offer either case deleg said accept produc must given clear opportun make offer cocoa forward shipment directli buffer stock way competit spot offer made dealer,0.39575308478253873
+10506,"cocoa buffer stock rules effective immediately
+   the cocoa buffer stock rules just
+   decided by the international cocoa organization icco council
+   will take effect immediately delegates said
+       that means the buffer stock manager is likely to begin
+   buying cocoa within two or three weeks after organizing
+   communication systems and assessing the market they said",cocoa,COCOA BUFFER STOCK RULES EFFECTIVE IMMEDIATELY,"['cocoa', 'buffer', 'stock', 'rule', 'effect', 'immedi', 'cocoa', 'buffer', 'stock', 'rule', 'decid', 'intern', 'cocoa', 'organ', 'icco', 'council', 'take', 'effect', 'immedi', 'deleg', 'said', 'mean', 'buffer', 'stock', 'manag', 'like', 'begin', 'buy', 'cocoa', 'within', 'two', 'three', 'week', 'organ', 'commun', 'system', 'assess', 'market', 'said']","['cocoa', 'buffer', 'stock', 'rule', 'effect', 'immedi', 'cocoa', 'buffer', 'stock', 'rule', 'decid', 'intern', 'cocoa', 'organ', 'icco', 'council', 'take', 'effect', 'immedi', 'deleg', 'said', 'mean', 'buffer', 'stock', 'manag', 'like', 'begin', 'buy', 'cocoa', 'within', 'two', 'three', 'week', 'organ', 'commun', 'system', 'assess', 'market', 'said']",cocoa buffer stock rule effect immedi cocoa buffer stock rule decid intern cocoa organ icco council take effect immedi deleg said mean buffer stock manag like begin buy cocoa within two three week organ commun system assess market said,0.39525098703684053
+10586,"cocoa council meeting ends after agreeing rules
+   the international cocoa organization
+   icco council adjourned after agreeing buffer stock rules for
+   the 1986 international cocoa agreement an icco spokesman said
+       the buffer stock will begin operations immediately he
+   said
+       he confirmed delegate reports that the buffer stock manager
+   will trade cocoa by means of an offer system and according to
+   fixed differentials for cocoa from different origins
+       purchases from nonmembers will be limited to 15 pct of the
+   total and buying or selling operations in any one day will be
+   restricted to a maximum of 40 pct each for nearby intermediate
+   and forward positions he said",cocoa,COCOA COUNCIL MEETING ENDS AFTER AGREEING RULES,"['cocoa', 'council', 'meet', 'end', 'agre', 'rule', 'intern', 'cocoa', 'organ', 'icco', 'council', 'adjourn', 'agre', 'buffer', 'stock', 'rule', '1986', 'intern', 'cocoa', 'agreement', 'icco', 'spokesman', 'said', 'buffer', 'stock', 'begin', 'oper', 'immedi', 'said', 'confirm', 'deleg', 'report', 'buffer', 'stock', 'manag', 'trade', 'cocoa', 'mean', 'offer', 'system', 'accord', 'fix', 'differenti', 'cocoa', 'differ', 'origin', 'purchas', 'nonmemb', 'limit', '15', 'pct', 'total', 'buy', 'sell', 'oper', 'one', 'day', 'restrict', 'maximum', '40', 'pct', 'nearbi', 'intermedi', 'forward', 'posit', 'said']","['cocoa', 'council', 'meet', 'end', 'agre', 'rule', 'intern', 'cocoa', 'organ', 'icco', 'council', 'adjourn', 'agre', 'buffer', 'stock', 'rule', '1986', 'intern', 'cocoa', 'agreement', 'icco', 'spokesman', 'said', 'buffer', 'stock', 'begin', 'oper', 'immedi', 'said', 'confirm', 'deleg', 'report', 'buffer', 'stock', 'manag', 'trade', 'cocoa', 'mean', 'offer', 'system', 'accord', 'fix', 'differenti', 'cocoa', 'differ', 'origin', 'purchas', 'nonmemb', 'limit', '15', 'pct', 'total', 'buy', 'sell', 'oper', 'one', 'day', 'restrict', 'maximum', '40', 'pct', 'nearbi', 'intermedi', 'forward', 'posit', 'said']",cocoa council meet end agre rule intern cocoa organ icco council adjourn agre buffer stock rule 1986 intern cocoa agreement icco spokesman said buffer stock begin oper immedi said confirm deleg report buffer stock manag trade cocoa mean offer system accord fix differenti cocoa differ origin purchas nonmemb limit 15 pct total buy sell oper one day restrict maximum 40 pct nearbi intermedi forward posit said,0.39410343474942816
