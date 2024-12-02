@@ -156,8 +156,8 @@ def search():
                 if categoria in corpus.loc[idx, "cats"].split(",")  
             ]
 
-        # Generar un pseudo-ground truth dinámico con similitud > 0.5
-        umbral_similitud = 0.5
+        # Generar un pseudo-ground truth dinámico con similitud > 0.2
+        umbral_similitud = 0.2
         relevantes = [idx for idx, score in ranked_indices if score >= umbral_similitud]
         recuperados = [doc[0] for doc in ranked_indices[:25]]
 
