@@ -6,6 +6,7 @@ from gensim.models import Word2Vec
 import numpy as np
 import os
 import json
+import zipfile
 from flask_cors import CORS
 from nltk.stem import PorterStemmer
 import re
@@ -13,13 +14,16 @@ import re
 app = Flask(__name__)
 CORS(app)
 
-# Ruta al archivo CSV
+# Ruta al archivo ZIP
 base_dir = os.path.dirname(os.path.abspath(__file__))
-csv_path = os.path.join(base_dir, "database.csv")
+zip_path = os.path.join(base_dir, "database.zip")
+csv_filename = "database.csv"
 inverted_index_path = os.path.join(base_dir, "inverted_index.json")
 
-# Cargar el archivo
-corpus = pd.read_csv(csv_path)
+# Leer el archivo CSV desde el ZIP
+with zipfile.ZipFile(zip_path, 'r') as z:
+    with z.open(csv_filename) as f:
+        corpus = pd.read_csv(f)
 
 # Cargar índice invertido
 with open(inverted_index_path, "r") as f:
@@ -115,17 +119,18 @@ def search():
             key=lambda x: x[1],  # Ordenar por similitud (ranking)
             reverse=True  # De mayor a menor similitud
         )
+
         # Generar resultados
         resultados = [
             {
                 "id": int(corpus.loc[idx, "id"]),
                 "titulo": str(corpus.loc[idx, "title"]),
-                "similitud": float(similitudes[i]),
+                "similitud": float(score),
                 "texto": str(corpus.loc[idx, "text"][:200]) + "...",
                 "textodetallado": str(corpus.loc[idx, "text"]),
                 "cats": str(corpus.loc[idx, "cats"])
             }
-            for i, idx in enumerate(global_indices)
+            for idx, score in ranked_indices[:25]
         ]
 
         return jsonify(resultados)
