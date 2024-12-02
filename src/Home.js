@@ -1,70 +1,86 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import React, { useState } from "react"; // Importa React y useState para manejar el estado local.
+import { useNavigate } from "react-router-dom"; // Importa useNavigate para redirigir entre rutas.
+import "bootstrap/dist/css/bootstrap.min.css"; // Estilos de Bootstrap.
+import "./App.css"; // Estilos personalizados.
 
 function Home() {
+    // Estado para la consulta de búsqueda.
     const [query, setQuery] = useState("");
-    const [method, setMethod] = useState("tfidf"); // Método predeterminado
-    const [isLoading, setIsLoading] = useState(false); // Estado de carga
+
+    // Estado para el método de búsqueda seleccionado (predeterminado: "tfidf").
+    const [method, setMethod] = useState("tfidf");
+
+    // Estado para mostrar si la aplicación está cargando.
+    const [isLoading, setIsLoading] = useState(false);
+
+    // Hook para la navegación a otras rutas.
     const navigate = useNavigate();
 
+    // Función que maneja la lógica de búsqueda.
     const handleSearch = async () => {
+        // Verifica que haya un término de búsqueda.
         if (!query.trim()) {
             alert("Por favor, ingresa un término de búsqueda.");
             return;
         }
 
-        setIsLoading(true); // Activar estado de carga
+        setIsLoading(true); // Activa el estado de carga.
+
         try {
+            // Realiza una solicitud POST a la API con el término de búsqueda y el método.
             const response = await fetch("http://127.0.0.1:5000/api/search", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json",
+                    "Content-Type": "application/json", // Indica que se envía JSON.
                 },
-                body: JSON.stringify({ query, method }), // Enviar query y método
+                body: JSON.stringify({ query, method }), // Envía la consulta y el método seleccionado.
             });
 
+            // Verifica si la respuesta del servidor es exitosa.
             if (!response.ok) {
-                const errorText = await response.text();
+                const errorText = await response.text(); // Obtiene el mensaje de error.
                 throw new Error(`Error en el servidor: ${errorText}`);
             }
 
+            // Procesa la respuesta del servidor.
             const data = await response.json();
 
-            // Redirigir al usuario a la página de resultados con los datos de búsqueda y métricas
+            // Redirige a la página de resultados, pasando los datos necesarios.
             navigate("/results", {
                 state: {
-                    query,
-                    method,
-                    results: data.resultados || [],
-                    metrics: data.metricas || {},
-                    categories: data.categories || [], // Cargar categorías
+                    query, // Consulta realizada.
+                    method, // Método de búsqueda seleccionado.
+                    results: data.resultados || [], // Resultados de la búsqueda.
+                    metrics: data.metricas || {}, // Métricas de rendimiento.
+                    categories: data.categories || [], // Categorías de resultados.
                 },
             });
         } catch (err) {
+            // Maneja errores de la solicitud.
             console.error("Error al realizar la búsqueda:", err);
             alert("No se pudo realizar la búsqueda. Intenta nuevamente.");
         } finally {
-            setIsLoading(false); // Desactivar estado de carga
+            setIsLoading(false); // Desactiva el estado de carga.
         }
     };
 
     return (
         <div className="container d-flex flex-column justify-content-center align-items-center vh-100">
+            {/* Logo de la aplicación */}
             <img
-                src="/images/alphaquery.png"
-                alt="AlphaQuery Logo"
+                src="/images/alphaquery.png" // Ruta del logo.
+                alt="AlphaQuery Logo" // Texto alternativo para accesibilidad.
                 className="mb-4"
-                style={{ maxWidth: "500px", height: "auto" }}
+                style={{ maxWidth: "500px", height: "auto" }} // Estilo responsivo.
             />
 
+            {/* Campo de entrada y botón de búsqueda */}
             <div className="input-group mb-4 w-75">
                 <input
-                    type="text"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Escribe tu búsqueda"
+                    type="text" // Campo de texto para la búsqueda.
+                    value={query} // Valor ligado al estado `query`.
+                    onChange={(e) => setQuery(e.target.value)} // Actualiza el estado al escribir.
+                    placeholder="Escribe tu búsqueda" // Texto de ayuda.
                     className="form-control"
                 />
                 <button onClick={handleSearch} className="btn btn-primary">
@@ -72,22 +88,23 @@ function Home() {
                 </button>
             </div>
 
+            {/* Botones de selección de método */}
             <div className="btn-group" role="group" aria-label="Selecciona método">
                 <input
-                    type="radio"
+                    type="radio" // Botón de radio para "Bag of Words".
                     className="btn-check"
-                    name="method"
+                    name="method" // Todos los botones comparten el mismo grupo.
                     id="method-bow"
                     value="bow"
-                    checked={method === "bow"}
-                    onChange={() => setMethod("bow")}
+                    checked={method === "bow"} // Marca si `method` coincide.
+                    onChange={() => setMethod("bow")} // Actualiza el método seleccionado.
                 />
                 <label className="btn btn-outline-primary" htmlFor="method-bow">
                     Bag of Words (BoW)
                 </label>
 
                 <input
-                    type="radio"
+                    type="radio" // Botón de radio para "TF-IDF".
                     className="btn-check"
                     name="method"
                     id="method-tfidf"
@@ -100,7 +117,7 @@ function Home() {
                 </label>
 
                 <input
-                    type="radio"
+                    type="radio" // Botón de radio para "Word2Vec".
                     className="btn-check"
                     name="method"
                     id="method-word2vec"
@@ -116,4 +133,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default Home; // Exporta el componente para usarlo en otros archivos.
