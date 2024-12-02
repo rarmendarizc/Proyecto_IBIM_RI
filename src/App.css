@@ -1,94 +1,157 @@
-/* Estilo general */
+/* Fondo y texto general */
 body {
-  font-family: 'Arial', sans-serif;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #1c273f; /* Azul oscuro */
+  font-family: 'Arial', sans-serif; /* Fuente general */
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
-  color: #333;
 }
 
-/* Contenedor principal */
-div {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+/* Logo */
+img {
+  max-width: 500px;
+  height: auto;
 }
 
-/* Título principal */
-h1 {
-  text-align: center;
-  color: #4a90e2;
-  margin-bottom: 20px;
-}
-
-/* Input de búsqueda */
+/* Input */
 input[type="text"] {
-  width: 70%;
+  background-color: #ffffff;
+  border: 2px solid #1c273f; /* Azul oscuro */
+  border-radius: 8px;
   padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  transition: border-color 0.3s ease;
+  font-size: 14px;
+  color: #1c273f;
 }
 
-input[type="text"]:focus {
-  border-color: #4a90e2;
-  outline: none;
-  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+input[type="text"]::placeholder {
+  color: #1c273f;
+  opacity: 0.7;
 }
 
 /* Botón de búsqueda */
-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #4a90e2;
+button.btn-primary {
+  background-color: #1c273f; /* Azul oscuro */
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  color: #ffffff; /* Texto blanco */
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 10px 20px;
   transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #357ab8;
+button.btn-primary:hover {
+  background-color: #2f3c5f; /* Azul más oscuro */
 }
 
-/* Mensaje de error */
-div > div[style*="color: red"] {
-  color: #e74c3c;
+/* Barra fija superior */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* Fondo blanco */
+  border-bottom: 2px solid #1c273f; /* Línea azul oscuro */
+  padding: 10px 20px;
+  z-index: 1030;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px; /* Altura del encabezado */
+}
+
+/* Contenido debajo del encabezado */
+.results-container {
+  margin-top: 80px; /* Altura del encabezado */
+  padding: 20px;
+}
+
+.content-container {
+  margin-top: 80px; /* Ajuste para header fijo */
+}
+
+/* Input y botón dentro de la barra */
+.fixed-header .header-input-group input {
+  border: 2px solid #1c273f;
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
   font-size: 14px;
 }
 
-/* Resultados */
-h2 {
-  margin-top: 30px;
-  color: #2c3e50;
+.fixed-header .header-input-group button {
+  background-color: #1c273f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background-color 0.3s ease;
 }
 
-div > div {
-  margin-bottom: 15px;
+.fixed-header .header-input-group button:hover {
+  background-color: #2f3c5f;
+}
+
+/* Resultados */
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
   border: 1px solid #ddd;
   padding: 15px;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  transition: box-shadow 0.3s ease;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-div > div:hover {
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
 }
 
-/* Encabezado de los resultados */
-div h3 {
-  margin: 0;
-  color: #4a90e2;
+/* Paginación */
+.pagination {
+  justify-content: center;
+  margin-top: 10px;
 }
 
-/* Texto de los resultados */
-div p {
-  margin: 5px 0;
-  line-height: 1.5;
+.pagination .page-link {
+  color: #1c273f;
+}
+
+.pagination .page-link:hover {
+  background-color: #1c273f;
+  color: white;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #1c273f;
+  color: #ffffff;
+  border-color: #1c273f;
+}
+
+/* Detalles del resultado */
+.detail-content {
+  margin-top: 100px; /* Para evitar solapamiento con el header */
+}
+
+.metrics-box {
+  position: sticky;
+  top: 80px;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Botones de selección */
+.btn-group .btn-outline-primary {
+  color: #1c273f; /* Cambia este color para el texto normal */
+  border-color: #1c273f; /* Cambia este color para el borde */
+  background-color: #ffffff; /* Fondo blanco para el estado normal */
+}
+
+.btn-group .btn-outline-primary:hover,
+.btn-group .btn-check:checked + .btn-outline-primary {
+  background-color: #1c273f; /* Cambia este color para el fondo al seleccionar o pasar el mouse */
+  color: #ffffff; /* Cambia este color para el texto seleccionado */
 }
