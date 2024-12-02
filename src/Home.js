@@ -3,13 +3,19 @@ import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
-
 function Home() {
     const [query, setQuery] = useState("");
     const [method, setMethod] = useState("tfidf"); // Método predeterminado
+    const [isLoading, setIsLoading] = useState(false); // Estado de carga
     const navigate = useNavigate();
 
     const handleSearch = async () => {
+        if (!query.trim()) {
+            alert("Por favor, ingresa un término de búsqueda.");
+            return;
+        }
+
+        setIsLoading(true); // Activar estado de carga
         try {
             const response = await fetch("http://127.0.0.1:5000/api/search", {
                 method: "POST",
@@ -20,16 +26,27 @@ function Home() {
             });
 
             if (!response.ok) {
-                throw new Error("Error en el servidor");
+                const errorText = await response.text();
+                throw new Error(`Error en el servidor: ${errorText}`);
             }
 
             const data = await response.json();
 
-            // Redirigir al usuario a la página de resultados con los datos de búsqueda
-            navigate("/results", { state: { query, method, results: data } });
+            // Redirigir al usuario a la página de resultados con los datos de búsqueda y métricas
+            navigate("/results", {
+                state: {
+                    query,
+                    method,
+                    results: data.resultados || [],
+                    metrics: data.metricas || {},
+                    categories: data.categories || [], // Cargar categorías
+                },
+            });
         } catch (err) {
-            console.error(err);
+            console.error("Error al realizar la búsqueda:", err);
             alert("No se pudo realizar la búsqueda. Intenta nuevamente.");
+        } finally {
+            setIsLoading(false); // Desactivar estado de carga
         }
     };
 
@@ -41,7 +58,7 @@ function Home() {
                 className="mb-4"
                 style={{ maxWidth: "500px", height: "auto" }}
             />
-    
+
             <div className="input-group mb-4 w-75">
                 <input
                     type="text"
@@ -54,7 +71,7 @@ function Home() {
                     Buscar
                 </button>
             </div>
-    
+
             <div className="btn-group" role="group" aria-label="Selecciona método">
                 <input
                     type="radio"
@@ -68,7 +85,7 @@ function Home() {
                 <label className="btn btn-outline-primary" htmlFor="method-bow">
                     Bag of Words (BoW)
                 </label>
-    
+
                 <input
                     type="radio"
                     className="btn-check"
@@ -81,7 +98,7 @@ function Home() {
                 <label className="btn btn-outline-primary" htmlFor="method-tfidf">
                     TF-IDF
                 </label>
-    
+
                 <input
                     type="radio"
                     className="btn-check"
@@ -96,7 +113,6 @@ function Home() {
                 </label>
             </div>
         </div>
-    
     );
 }
 

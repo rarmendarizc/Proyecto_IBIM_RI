@@ -1,3 +1,15 @@
-consulta,precision,recall,f1_score,relevantes_encontrados
-bahia cocoa,1.0,1.0,1.0,"[318, 4862, 0, 3773, 7727]"
-asian cocoa,1.0,1.0,1.0,"[4862, 318, 7727, 319, 366]"
+consulta,metodo,precision,recall,f1_score,relevantes_encontrados
+cocoa,bow,0.16,1.0,0.27586206896551724,4
+cocoa,tfidf,0.48,1.0,0.6486486486486487,12
+cocoa,word2vec,1.0,0.3246753246753247,0.49019607843137253,77
+cocoa,bow,0.16,1.0,0.27586206896551724,4
+technology,tfidf,0.04,1.0,0.07692307692307693,1
+technology,bow,0.04,1.0,0.07692307692307693,1
+technology,word2vec,1.0,0.25510204081632654,0.4065040650406504,98
+online,bow,0.0,0.0,0.0,0
+online,tfidf,0.0,0.0,0.0,0
+online,bow,0.0,0.0,0.0,0
+online,word2vec,0.0,0.0,0.0,0
+bank,bow,1.0,0.3968253968253968,0.5681818181818182,63
+bank,tfidf,0.32,1.0,0.48484848484848486,8
+bank,word2vec,1.0,0.02295684113865932,0.04488330341113106,1089
